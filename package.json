@@ -2,8 +2,9 @@
   "name": "react-learning",
   "version": "1.0.0",
   "description": "This is for learning",
-  "main": "App.js",
   "scripts": {
+    "start":"parcel index.html",
+    "build":"parcel build index.html",
     "test": "jest"
   },
   "repository": {
@@ -13,6 +14,14 @@
   "author": "Himanshu Malik",
   "license": "ISC",
   "devDependencies": {
-    "parcel": "^2.12.0"
-  }
+    "parcel": "^2.12.0",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "browserslist":[
+    "Last 2 version "
+  ]
 }
